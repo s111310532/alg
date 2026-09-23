@@ -6,8 +6,7 @@ Truth Table SAT Solver
 測試案例 1：可滿足問題 (SAT)
 輸入公式
 
-cnf_sat_example 
-= [
+cnf_sat_example = [
     [1, -2],     # (x1 ∨ ¬x2)
     [-1, 3],     # (¬x1 ∨ x3)
     [2, 3]       # (x2 ∨ x3)
