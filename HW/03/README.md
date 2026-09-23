@@ -75,9 +75,13 @@ Truth Table Enumeration
 -------------------------------
 
 [Result]: SATISFIABLE (SAT)
+
 Total Satisfying Assignments: 3
+  
   Solution 1: x1=True, x2=True, x3=True
+ 
   Solution 2: x1=True, x2=False, x3=True
+ 
   Solution 3: x1=False, x2=False, x3=True
 
 --- Test 2: UNSAT Example ---
