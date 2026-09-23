@@ -47,8 +47,11 @@ cnf_unsat_example = [
 --- Test 1: SAT Example ---
 
 ================================
+
 Truth Table Enumeration
+
 ================================
+
  x1   |  x2   |  x3   | Formula
 
 ------+-------+-------+--------
@@ -80,12 +83,19 @@ Total Satisfying Assignments: 3
 --- Test 2: UNSAT Example ---
 
 =========================
+
 Truth Table Enumeration
+
 =========================
+
   x1   | Formula
+
 -------+--------
+  
    T   |    F   
+ 
    F   |    F   
+
 ------------------------
 
 [Result]: UNSATISFIABLE (UNSAT)
