@@ -65,23 +65,6 @@ class TruthTableSATSolver:
 
         return is_sat, satisfying_assignments
 
-
-if __name__ == "__main__":
-    cnf_sat_example = [
-        [1, -2],
-        [-1, 3],
-        [2, 3]
-    ]
-    
-    print("--- Test 1: SAT Example ---")
-    solver1 = TruthTableSATSolver(cnf_sat_example)
-    solver1.solve_and_print_truth_table()
-
-    cnf_unsat_example = [
-        [1],
-        [-1]
-    ]
-    
     print("\n--- Test 2: UNSAT Example ---")
     solver2 = TruthTableSATSolver(cnf_unsat_example)
     solver2.solve_and_print_truth_table()
