@@ -1,32 +1,6 @@
 Truth Table SAT Solver
-
-一個基於系統性枚舉（Brute-force Enumeration）真值表的布林可滿足性問題（Boolean Satisfiability Problem, SAT）求解器。
-
-核心設計理念本專案使用標準的 合取範式（CNF, Conjunctive Normal Form） 來表示命題邏輯公式：
-
-*公式由多個子句（Clause）以邏輯 AND 連接而成。
-*每個子句由一或多個文字（Literal）以邏輯 OR 連接而成。
-*變數使用正整數編號（如 1, 2, 3 代表變數 $x_1, x_2, x_3$）。
-*負整數代表否定（如 -2 代表 $\neg x_2$）。
-
-演算法流程
-
-1.變數擷取：掃描所有子句，提取並排序所有唯一的正整數變數識別碼。
-2.窮舉賦值：利用 Python 內建的 itertools.product([True, False], repeat=n) 產生所有可能的 $2^n$ 種布林變數指派。
-3.子句與公式評估：
-  *對於特定指派，若子句中至少有一個文字的值為 True，該子句即判定為真。
-  *若所有子句皆為真，則整份公式判定為真。
-4.輸出真值表與結果：將每一步指派結果格式化印出，標註滿足解（Satisfying Assignments），並回傳公式是否為 SAT 或 UNSAT。
-
-程式碼結構解析
-
-類別 / 方法	功能說明
-TruthTableSATSolver.__init__	接收 CNF 子句集合，自動推導所有出現的變數集合，並建立變數名稱對應表。
-evaluate_clause	傳入單一子句與目前的布林賦值字典，判定子句是否滿足（OR 運算）。
-evaluate_formula	檢查公式中所有子句是否均為真（AND 運算）。
-solve_and_print_truth_table	走訪所有真值表列，列印對齊的真值表，記錄滿足解，並輸出 SAT/UNSAT 總結。
-
-測試案例與驗證
+探究是否存在一種解釋能夠滿足給定的布林公式。
+公式中的變數是否可以一致地替換為 TRUE 或 FALSE 值，從而使公式的值為 TRUE。如果可以，則稱該公式為可滿足的；否則，稱該公式為不可滿足的。
 
 測試案例 1：可滿足問題 (SAT)
 輸入公式
@@ -93,11 +67,3 @@ Truth Table Enumeration
 
 [Result]: UNSATISFIABLE (UNSAT)
 
-複雜度分析與限制時間複雜度：
-1.時間複雜度:
-  *其中n為變數數量，m為子句數量。
-  *每增加一個變數，枚舉次數呈現指數倍（*2）成長。
-
-2.適用邊界：
-  *本程式適用於n≤20的教學與小型邏輯驗證。
-  *若變數規模超過 30，真值表列數將突破 10 億列，實務上應改用 DPLL、CDCL 等現代 SAT 求解演算法。
