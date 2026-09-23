@@ -50,15 +50,25 @@ cnf_unsat_example = [
 Truth Table Enumeration
 ================================
  x1   |  x2   |  x3   | Formula
+
 ------+-------+-------+--------
+ 
   T   |   T   |   T   |    T     <-- SATISFIES
+ 
   T   |   T   |   F   |    F   
+  
   T   |   F   |   T   |    T     <-- SATISFIES
+ 
   T   |   F   |   F   |    F   
+ 
   F   |   T   |   T   |    F   
+ 
   F   |   T   |   F   |    F   
+
   F   |   F   |   T   |    T     <-- SATISFIES
+ 
   F   |   F   |   F   |    F   
+
 -------------------------------
 
 [Result]: SATISFIABLE (SAT)
