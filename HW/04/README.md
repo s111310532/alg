@@ -117,4 +117,6 @@ g(x)=(x^2+1)/2，g′(x)=x
 
 可發現當重根時跌代次數會相較於單根來的多。
 
+使用:https://share.gemini.google/Fhgkmor9ofsL
+
 
