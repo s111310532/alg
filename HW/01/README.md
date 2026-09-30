@@ -19,6 +19,6 @@ $$2^{101} - 1 \approx 2.535 \times 10^{30} \text{ 次}$$
 
 即使現代超級電腦每秒能處理數千億次運算，也需要花費數十億年，因此一般電腦會直接呈現無回應（當機）狀態。
 
-https://share.gemini.google/ojV6djTFpqDh
+使用:https://share.gemini.google/ojV6djTFpqDh
  
 
