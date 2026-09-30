@@ -104,5 +104,5 @@ Truth Table Enumeration
 
 [Result]: UNSATISFIABLE (UNSAT)
 
-https://share.gemini.google/UJHGpcZgn5qS
+使用:https://share.gemini.google/UJHGpcZgn5qS
 
