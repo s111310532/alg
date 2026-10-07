@@ -14,7 +14,7 @@ Bubble Sort
 
  *my_reduce(fn, acc, seq)：取出 seq[0]，呼叫 fn(acc, seq[0]) 更新累加器 acc，再將新的 acc 與剩下的 seq[1:] 丟入下一層遞迴，直到串列被清空為止。
 
-3. 單趟冒泡：利用 my_reduce 取代內層迴圈
+3.單趟冒泡：利用 my_reduce 取代內層迴圈
 
  累加器 acc 設計成一個 Tuple。
 
@@ -26,7 +26,7 @@ Bubble Sort
 
  跑完一趟後，整批資料中真正的最大值一定會被推到最後，最後將 prefix 與 max_val 組合起來返回。
 
-4. 輪數控制：取代外層迴圈
+4.輪數控制：取代外層迴圈
 
  傳統外層迴圈需要進行 N-1 次排序。
 
