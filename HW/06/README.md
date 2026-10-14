@@ -35,15 +35,19 @@ ONE = r"(\f. \x. f x)"
 PLUS = r"(\m. \n. \f. \x. m f (n f x))"
 
 # 1. 布林運算: NOT TRUE
+
 evaluate(f"({NOT} {TRUE})")
 
 # 2. 避免變數捕捉 (α-conversion 觸發)
+
 evaluate(r"(\x. \y. x) y")
 
 # 3. Church 數值加法: 1 + 1 -> 2 (\f. \x. f (f x))
+
 evaluate(f"({PLUS} {ONE} {ONE})")
 
 # 4. 無窮迴圈 Omega 測試
+
 evaluate(r"(\x. x x) (\x. x x)", max_steps=4)
 
 執行結果
