@@ -21,12 +21,17 @@ Lambda calculus
 4.無窮遞迴：Ω = (λx.x x) (λx.x x) 
 
 # Church 巨集常數定義
+
 TRUE = r"(\x. \y. x)"
+
 FALSE = r"(\x. \y. y)"
+
 NOT = f"(\\b. b {FALSE} {TRUE})"
 
 ZERO = r"(\f. \x. x)"
+
 ONE = r"(\f. \x. f x)"
+
 PLUS = r"(\m. \n. \f. \x. m f (n f x))"
 
 # 1. 布林運算: NOT TRUE
