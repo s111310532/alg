@@ -103,3 +103,5 @@ Step 4: ((λx. (x x)) (λx. (x x)))
 
 >> 超過最大步數限制 (4 steps)，計算停止（可能為無窮迴圈）。
 最終結果: ((λx. (x x)) (λx. (x x)))
+
+使用:https://share.gemini.google/iOfqc6DEiNrB
