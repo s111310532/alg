@@ -70,6 +70,7 @@
 
 缺點:後期收尾成本不可控，無法動態調整前期錯誤。
 
+使用:https://share.gemini.google/LE5D1hgRM5bH
 
 
 
