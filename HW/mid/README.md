@@ -5,7 +5,7 @@
 1          |   查表法  |   是 |   | | 
 2          |  複雜度  |   是 |   | |
 3          |  列舉＋暴力  |   是 |   | 
-4          |  迭代法 | 是 |    是 |  |  | 
+4          |  迭代法 | 是 |   |  |  | 
 5          |  遞迴，函數式編程 | 是 |  |  | [week5-fp-lambda](https://github.com/ccc115a/alg/tree/main/_more/homework/week5-fp-lambda) | 
 6          | Lambda Calculus | 是 |  | | 
 7          | 動態規劃與文字算法 | 是 |  |  | | 
