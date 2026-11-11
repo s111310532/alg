@@ -3,7 +3,7 @@
 第幾週 |  習題內容 | 有上課且準時繳交 |  補交 |  附上請假證明 | 作業連結
 -------|----------|--------------------|------|---------------|-------------
 1          |   查表法  |   是 |   | | [習題1](https://github.com/s111310532/alg/tree/main/HW/01) | 
-2          |  複雜度  |   是 |   | |
+2          |  複雜度  |   是 |   | |[習題2](https://github.com/s111310532/alg/tree/main/HW/02)|
 3          |  列舉＋暴力  |   是 |   |
 4          |  迭代法 | 是 |   |  |  | 
 5          |  遞迴，函數式編程 | 是 |  |  | [week5-fp-lambda](https://github.com/ccc115a/alg/tree/main/_more/homework/week5-fp-lambda) | 
